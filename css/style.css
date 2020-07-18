@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Montez', cursive;
+    font-size: 4.5rem;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: whitesmoke;
+    font-family: 'Montez', cursive;
+} 
+
+
+h3 {
+    color: rgb(109, 109, 223);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 20%;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+    background-color: #086972;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 4%;
+    right: 22%;  
+}
+
+.bottom-cloud {
+    position: absolute;
+}   
+
+.bio {
+    font-family: 'Lemonada', cursive;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+
+
+.footer-link {
+    font-size: 0.8rem;
+    margin: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.skills {
+    background-color: #d3dbff;
+}
+
+
+
+
+.skill-img1, .skill-img2, .skill-img3  {
+    width: 25%;
+}
+
+.skill-img1, .skill-img3 {
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-img2 {
+    float: right;
+}
+
+.skill-row {
+    width: 30%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.description {
+    text-align: left;
+    line-height: 2;
+    padding-left: 5px;
+    color: cadetblue;
+    margin: auto;
+}
+
+
+@media (max-width :780px) {
+    .description {
+        margin: 0rem;
+        text-align: left;
+    }
+
+    .skill-row {
+        width: 100%;
+    }
+}
